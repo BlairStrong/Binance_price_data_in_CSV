@@ -1,0 +1,39 @@
+What to Include in your README
+1. Binance Price history downloader
+
+2. Project Description
+This is a simple script to download all of the binance price history for a given coin, from a given start date and at a given interval.
+the coins must be listed in BASEQUOTE form ie. BTCETH or BNBUSDT. There are limiters in palce to avoid over requesting from the binance API.
+
+This script checks to see if a current file exsist for data and will only update with new data. This avoids duplication for ease of processessing and reduces time for download and demand from the binance API.
+
+
+4. How to Install and Run the Project
+
+I dont beleive there are any additional modules required, so no requriements.txt have been placed in this dir.
+ in order to use:
+ 	Please modify main.py with the list of coins you need and the interval you require.
+ 	Comma separeavted value files will be generated in the same directory the script is running in for each coin. these should be named intuitivley as f"{symbol}_prices_{interval}.csv" where symbol is the BASEQUOTE pair and internval is as defined above
+ 		Binance API DATA: https://github.com/binance/binance-spot-api-docs/blob/master/rest-api.md
+ 		Cheatsheet for intervals: 
+ 		s-> seconds; m -> minutes; h -> hours; d -> days; w -> weeks; M -> months
+
+1s
+1m
+3m
+5m
+15m
+30m
+1h
+2h
+4h
+6h
+8h
+12h
+1d
+3d
+1w
+1M
+ 	
+
+
