@@ -1,5 +1,6 @@
-What to Include in your README
-1. Binance Price history downloader
+
+1. TITLE
+Binance Price history downloader
 
 2. Project Description
 This is a simple script to download all of the binance price history for a given coin, from a given start date and at a given interval.
