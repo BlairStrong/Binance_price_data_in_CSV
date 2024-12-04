@@ -17,6 +17,7 @@ The output is saved as CSV files in the format:
 - **`interval`**: The specified time interval for price data.  
 
 **Binance API Documentation**: [Binance Spot API](https://github.com/binance/binance-spot-api-docs/blob/master/rest-api.md)  
+
 **Interval Cheatsheet**:  
 - `s` -> seconds  
 - `m` -> minutes  
@@ -30,8 +31,9 @@ Supported intervals:
 
 ---
 
-## 🚀 Features
-- **Efficient Data Handling**: Checks for existing files and updates only with new data to avoid duplication.
-- **API Rate Limiting**: Protects against over-requesting from Binance API.
-- **Easy Configuration**: Modify the script directly to suit your needs (coin pairs and intervals).
-- **Flexible Output**: Generates clear and intuitively named CSV files for each trading pair and interval.
+## 🚀 Features  
+
+- **Efficient Data Handling**: Checks for existing files and updates only with new data to avoid duplication.  
+- **API Rate Limiting**: Protects against over-requesting from Binance API.  
+- **Easy Configuration**: Modify the script directly to suit your needs (coin pairs and intervals).  
+- **Flexible Output**: Generates clear and intuitively named CSV files for each trading pair and interval.  
